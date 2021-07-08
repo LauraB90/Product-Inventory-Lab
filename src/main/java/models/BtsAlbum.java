@@ -10,5 +10,17 @@ public class BtsAlbum {
     private int qty;
     private float price;
 
+    public void setName(String name) {
+        this.name = name;
+    }
+   public String getName() {
+    return name;
+
+
+
+    }
+
+
+
 
 }
